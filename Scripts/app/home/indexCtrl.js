@@ -14,7 +14,7 @@
         $scope.loadData = loadData;
        
         function loadData() {
-            apiService.get('/EFWebAppPrototype/api/data/useraccount', null,
+            apiService.get('/api/data/useraccount', null,
                         userAccountLoadCompleted,
                         userAccountLoadFailed);
             //apiService.get('/EFWebAppPrototype/api/data/user', null,
